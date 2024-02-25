@@ -1,0 +1,26 @@
+.graph-and-batches {
+  position: absolute;
+  right: 0;
+  width: 23%;
+  height: 85vh;
+  background-color: rgb(41, 54, 69);
+  color: white;
+  padding: 1.5%;
+  border-radius: 15px;
+  margin: 4.5% 2%;
+}
+
+.assigned-batches {
+  margin-top: 20px;
+}
+.assigned-batches h2{
+  color: gold;
+}
+
+.batch-entry {
+  background-color: rgb(56, 72, 91);
+  margin-top: 2vh;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 5%;
+}

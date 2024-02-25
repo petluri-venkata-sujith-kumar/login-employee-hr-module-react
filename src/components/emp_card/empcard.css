@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+::selection{
+  color: #fff;
+  background: #1cc7d0;
+}
+#emp_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.wrapper{
+  /* border: 1px solid; */
+  height: 15em;
+  width: 25em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+}
+.dull_wrapper{
+  filter: brightness(70%);
+  height: 15em;
+  width: 25em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+}
+.front{
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  background-color: #fff;
+}
+.front section{
+  padding: 10px;
+  width: 150px;
+}
+.front section img{
+  height: 14em;
+  width: 10em;
+  object-fit: cover;
+}
+.front .info{
+  font-size: 17px;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #726f6f;
+}
+.front .info .name{
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+}
+.status{
+  font-size: 30px;
+  position: absolute;
+  top: 0.2em;
+  right: 0.3em;
+}
+.wrapper .back{
+  width: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15em;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 10px;
+}
+.front .info span{
+  font-size: 18px;
+  font-weight: 400;
+  color: #111;
+}
+.name+hr{
+  margin-bottom:15px;
+  margin-top:15px;
+  border-bottom: 1px solid black;
+}
+.edit_icon{
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.6em;
+  font-size: 1em;
+  color: #514e4e;
+  cursor: pointer;
+}

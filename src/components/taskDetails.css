@@ -1,0 +1,25 @@
+.task-details {
+    background: rgb(56, 72, 91);
+    padding: 3vh;
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .task-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gold;
+  }
+  
+  .task-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-details li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  

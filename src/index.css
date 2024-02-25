@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.MuiBackdrop-root.MuiModal-backdrop {
+  background-color: transparent !important;
+}
+body{
+  font-family: "poppins",sans-serif;
+  background-color: #ccc;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: auto
+}
+
+.profile-list-item:hover .MuiTypography-root {
+  color: #cc5500 !important;
+}
+.dashboard{
+  border-bottom: 1px solid #fff;
+}
+#appDiv{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contentDiv{
+  width: 60%;
+  height: 37.5em;
+  background-color: #f5f5f5;
+}
+#formDiv{
+  width: 40%;
+  height: 37.5em;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+.outlet{
+  position: absolute;
+  left: 15em;
+  overflow-y: auto;
+  top: 5em;
+  /* width: 100%; */
+}
+.out{
+  position: absolute;
+  left: 0.938;
+  top: 5em;
+  width: 100%;
+  
+}
+.active{
+  color: #cc5500;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  color: #111;
+}
+
+
+

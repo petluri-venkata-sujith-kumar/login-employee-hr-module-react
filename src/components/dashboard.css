@@ -1,0 +1,10 @@
+.dashboard-container {
+  display: flex;
+}
+
+.dashboard-content {
+  background-color: rgb(18,29,36) ;
+  color: #fff;
+  flex-grow: 1;
+  padding: 1% 2%;
+} 

@@ -1,0 +1,71 @@
+.attendance-log-section {
+  margin: 1.5%;
+  width: 69%;
+}
+
+.attendance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.attendance-log-section h2 {
+  color: #fff;
+}
+
+.attendance-log-section select {
+  padding: 0.9%;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #111;
+}
+
+.table-container {
+  max-height: 500px;
+  overflow: auto;
+}
+thead {
+  position: sticky;
+  top: 0;
+  /* z-index: 1;  */
+}
+
+tbody {
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.attendance-log-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-log-section th,
+.attendance-log-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.attendance-log-section th {
+  background-color: rgb(41, 54, 69);
+  color: white;
+}
+
+.attendance-log-section tr {
+  background-color: rgb(56, 72, 91);
+}
+
+.attendance-log-section td[data-label="Time Lag/Extra Time"] {
+  color: green;
+}
+
+.attendance-log-section
+  td[data-label="Time Lag/Extra Time"][data-negative="true"] {
+  color: red;
+}

@@ -1,0 +1,49 @@
+/* dashboardSidebar.css */
+.dashboard-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(41, 54, 69);
+  color: white;
+  height: 100vh;
+}
+
+.top-items {
+  margin-top: 10vh;
+}
+
+.bottom-items {
+  margin-top: auto;
+}
+
+.sidebar-item {
+  margin-bottom: 3vh;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 1vh;
+  transition: transform 0.2s ease-in-out; 
+}
+
+.sidebar-item:hover {
+  background-color: rgb(18, 29, 36);
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(210, 210, 210, 0.50);
+  transform: scale(1.1);
+}
+
+.profile-pic {
+  width: auto;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+.profile-pic:hover {
+  box-shadow: 0 0 6px rgba(210, 210, 210, 0.75);
+  transform: scale(1.2);
+} 
+
